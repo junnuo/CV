@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 5%;
+  border-width: 7px 0 0 0;
+  border-style: dotted;
+  color: #EAF6F6;
+  margin-bottom: 50px;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto 50px auto;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 50px auto 200px auto;
+  text-align: left;
+}
+
+.contact-me {
+  margin-top: 50px;
+}
+
+.top-container {
+  background-color: #e8ffff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 550px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 550px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.programming {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.cooking {
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   margin-top: 40px;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
